@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Responsive Admin Dashboard Template">
+        <meta name="keywords" content="admin,dashboard">
+        <meta name="author" content="stacks">
+        <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        
+        <!-- Title -->
+        <title>register</title>
+
+        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+        <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+        <link href="../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+        <link href="../assets/plugins/apexcharts/apexcharts.css" rel="stylesheet">
+
+        <!-- Main CSS -->
+	     <link href="../assets/css/style.css" id="cpswitch" rel="stylesheet">
+        <!-- Theme Styles -->
+        <link href="../assets/css/main.min.css" rel="stylesheet">
+        <link href="../assets/css/custom.css" rel="stylesheet">
+
+
+
+
+
+    </head>
+    <body>
+
+        <div class="page-container">
+            <div class="page-header">
+                <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+                  <div class="" id="navbarNav">
+                    <ul class="navbar-nav" id="leftNav">
+                      <li class="nav-item">
+                        <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                      </li>
+                    </ul>
+                    </div>
+                    <div class="logo">
+                      <a class="navbar-brand" href="index.html">EzWorld Meta</a>
+                    </div>
+                    <div class="" id="headerNav">
+                      <ul class="navbar-nav">
+                        <!--
+                        <li class="nav-item dropdown">
+                          <a class="nav-link search-dropdown" href="#" id="searchDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i data-feather="search"></i></a>
+                          <div class="dropdown-menu dropdown-menu-end dropdown-lg search-drop-menu" aria-labelledby="searchDropDown">
+                            <form>
+                              <input class="form-control" type="text" placeholder="Type something.." aria-label="Search">
+                            </form>
+                            <h6 class="dropdown-header">Recent Searches</h6>
+                            <a class="dropdown-item" href="#">charts</a>
+                            <a class="dropdown-item" href="#">new orders</a>
+                            <a class="dropdown-item" href="#">file manager</a>
+                            <a class="dropdown-item" href="#">new users</a>
+                          </div>-->
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link notifications-dropdown" href="#" id="notificationsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">3</a>
+                          <div class="dropdown-menu dropdown-menu-end notif-drop-menu" aria-labelledby="notificationsDropDown">
+                            <h6 class="dropdown-header">Notifications</h6>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge bg-info text-white">
+                                    <i class="fas fa-bullhorn"></i>
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p class="bold-notif-text">faucibus dolor in commodo lectus mattis</p>
+                                  <small>19:00</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge bg-primary text-white">
+                                    <i class="fas fa-bolt"></i>
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p class="bold-notif-text">faucibus dolor in commodo lectus mattis</p>
+                                  <small>18:00</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge bg-success text-white">
+                                    <i class="fas fa-at"></i>
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p>faucibus dolor in commodo lectus mattis</p>
+                                  <small>yesterday</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge">
+                                    <img src="../../assets/images/avatars/profile-image.png" alt="">
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p>faucibus dolor in commodo lectus mattis</p>
+                                  <small>yesterday</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge">
+                                    <img src="../../assets/images/avatars/profile-image.png" alt="">
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p>faucibus dolor in commodo lectus mattis</p>
+                                  <small>yesterday</small>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../../assets/images/avatars/profile-image.png" alt=""></a>
+                          <div class="dropdown-menu dropdown-menu-end profile-drop-menu" aria-labelledby="profileDropDown">
+                            <a class="dropdown-item" href="#"><i data-feather="user"></i>Profile</a>
+                            <a class="dropdown-item" href="#"><i data-feather="inbox"></i>Messages</a>
+                            <a class="dropdown-item" href="#"><i data-feather="edit"></i>Activities<span class="badge rounded-pill bg-success">12</span></a>
+                            <a class="dropdown-item" href="#"><i data-feather="check-circle"></i>Tasks</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i data-feather="settings"></i>Settings</a>
+                            <a class="dropdown-item" href="#"><i data-feather="unlock"></i>Lock</a>
+                            <a class="dropdown-item" href="login.html"><i data-feather="log-out"></i>Logout</a>
+                          </div>
+                        </li>
+                      </ul>
+                  </div>
+                </nav>
+            </div>
+            <div class="page-sidebar">
+              <ul class="list-unstyled accordion-menu">
+                <li class="sidebar-title">
+                  회원 관리
+                </li>
+                <li>
+                  <a href="mypage.html"><i data-feather="user"></i>My page</a>
+                </li>
+                <li class="sidebar-title">
+                  컨텐츠 관리
+                </li>
+                <li class="active-page">
+                  <a href="register.html"><i data-feather="inbox"></i>Register</a>
+                </li>
+                <li class="sidebar-title">
+                  모니터링
+                </li>
+                <li>
+                  <a href="dashboard.html"><i data-feather="home"></i>Dashboard</a>
+                </li>
+              </ul>
+          </div>
+            <div class="page-content">
+              <div class="main-wrapper">
+           		<!-- Form -->
+					<form method="POST" id="contactForm" name="contactForm" action="../assets/php/send_phpmailer_file_download_email_template.php">
+						<div class="row">
+							<div class="col-lg-8" id="mainContent">
+								<!-- Personal Details -->
+								<div class="row box first">
+									<div class="box-header">
+										<h3><strong>1</strong>Personal Details</h3>
+										<p>Subtitle or short description can be set here.</p>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<div class="form-group">
+											<input id="username" class="form-control" name="username" placeholder="Enter Full Name" type="text" data-parsley-pattern="^[a-zA-Z\s.]+$" required />
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<div class="form-group">
+											<input id="email" class="form-control" name="email" placeholder="Enter VALID EMAIL and check the result" type="email" required />
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<div class="form-group">
+											<input id="phone" class="form-control" name="phone" placeholder="Enter Phone e.g.: +363012345" type="text" data-parsley-pattern="^\+{1}[0-9]+$" />
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<div class="form-group">
+											<input type="hidden" id="subject" name="subject" value="General Information" />
+											<select id="subjectList" class="wide" name="subjectList">
+												<option value="0">General Information</option>
+												<option value="1">Subject Topic 1</option>
+												<option value="2">Subject Topic 2</option>
+												<option value="3">Subject Topic 3</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<!-- Personal Details End -->
+								<!-- Message -->
+								<div class="row box">
+									<div class="box-header">
+										<h3><strong>2</strong>Message</h3>
+										<p>Subtitle or short description can be set here.</p>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea id="inputMessage" class="form-control" name="message" placeholder="Enter Message" data-parsley-pattern="^[a-zA-Z0-9\s.:,!?']+$"
+												required></textarea>
+										</div>
+									</div>
+								</div>
+								<!-- Message End -->
+								<!-- File Uploader -->
+								<div class="row box">
+									<div class="box-header">
+										<h3><strong>3</strong>Attachment</h3>
+										<p>Only jpg, png, pdf, max. 1Mb.</p>
+									</div>
+									<div class="col-md-12"> 
+										<div class="form-group">
+											<input type="file" name="filepond[]" />
+										</div>
+									</div>
+								</div>
+								<!-- File Uploader End -->
+								<!-- Terms -->
+								<div class="row box">
+									<div class="box-header">
+										<h3><strong>4</strong>Submission</h3>
+										<p>Please accept the terms and conditions below.</p>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="checkbox" id="cbx" class="inp-cbx" name="terms" value="yes" required />
+											<label class="cbx terms" for="cbx">
+												<span>
+													<svg width="12px" height="10px" viewbox="0 0 12 10">
+														<polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+													</svg>
+												</span>
+												<span>Accept<a href="pdf/terms.pdf" class="terms-link" target="_blank">Terms and Conditions</a>.</span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<!-- Terms End -->
+								<!-- Submit-->
+								<div class="row box">
+									<div class="col-12">
+										<div class="form-group">
+											<button type="submit" name="submit" class="btn-form-func">
+												<span class="btn-form-func-content">Submit</span>
+												<span class="icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+											</button>
+										</div>
+									</div>
+								</div>
+								<!-- Submit -->
+							</div>
+						</div>
+					</form>
+					<!-- Form End -->
+            
+       
+        
+              </div>
+              
+            </div>
+        </div>
+        
+        <!-- Javascripts -->
+        <script src="../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+        <script src="../assets/plugins/apexcharts/apexcharts.min.js"></script>
+        <script src="../assets/js/main.min.js"></script>
+        <script src="../assets/js/pages/dashboard.js"></script>
+
+        <!-- Vendor Javascript Files -->
+	<script src="../assets/vendor/jquery/jquery.min.js"></script>
+	<script src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/vendor/easing/js/easing.min.js"></script>
+	<script src="../assets/vendor/parsley/js/parsley.min.js"></script>
+	<script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="../assets/vendor/theia-sticky-sidebar/js/ResizeSensor.min.js"></script>
+	<script src="../assets/vendor/theia-sticky-sidebar/js/theia-sticky-sidebar.min.js"></script>
+	<script src="../assets/vendor/mmenu/js/mmenu.min.js"></script>
+	<script src="../assets/vendor/filepond/js/filepond-plugin-file-validate-size.js"></script>
+	<script src="../assets/vendor/filepond/js/filepond-plugin-file-validate-type.js"></script>
+	<script src="../assets/vendor/filepond/js/filepond.min.js"></script>
+
+	<!-- Google reCaptcha -->
+	<script src="https://www.google.com/recaptcha/api.js?render=YOUR_KEY"></script>
+
+	<!-- Main Javascript File -->
+	<script src="../assets/js/scripts.js"></script>
+    </body>
+</html>

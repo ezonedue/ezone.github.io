@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Responsive Admin Dashboard Template">
+        <meta name="keywords" content="admin,dashboard">
+        <meta name="author" content="stacks">
+        <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        
+        <!-- Title -->
+        <title>register</title>
+
+        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+        <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+        <link href="../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+        <link href="../assets/plugins/apexcharts/apexcharts.css" rel="stylesheet">
+
+        <!-- Main CSS -->
+	     <link href="../assets/css/style.css" id="cpswitch" rel="stylesheet">
+        <!-- Theme Styles -->
+        <link href="../assets/css/main.min.css" rel="stylesheet">
+        <link href="../assets/css/custom.css" rel="stylesheet">
+
+
+
+
+
+    </head>
+    <body>
+
+        <div class="page-container">
+            <div class="page-header">
+                <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+                  <div class="" id="navbarNav">
+                    <ul class="navbar-nav" id="leftNav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                      </li>
+                    </ul>
+                    </div>
+                    <div class="logo">
+                      <a class="navbar-brand" href="index.html">EzWorld Meta</a>
+                    </div>
+                    <div class="" id="headerNav">
+                      <ul class="navbar-nav">
+                        <!--
+                        <li class="nav-item dropdown">
+                          <a class="nav-link search-dropdown" href="#" id="searchDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i data-feather="search"></i></a>
+                          <div class="dropdown-menu dropdown-menu-end dropdown-lg search-drop-menu" aria-labelledby="searchDropDown">
+                            <form>
+                              <input class="form-control" type="text" placeholder="Type something.." aria-label="Search">
+                            </form>
+                            <h6 class="dropdown-header">Recent Searches</h6>
+                            <a class="dropdown-item" href="#">charts</a>
+                            <a class="dropdown-item" href="#">new orders</a>
+                            <a class="dropdown-item" href="#">file manager</a>
+                            <a class="dropdown-item" href="#">new users</a>
+                          </div>-->
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link notifications-dropdown" href="#" id="notificationsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">3</a>
+                          <div class="dropdown-menu dropdown-menu-end notif-drop-menu" aria-labelledby="notificationsDropDown">
+                            <h6 class="dropdown-header">Notifications</h6>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge bg-info text-white">
+                                    <i class="fas fa-bullhorn"></i>
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p class="bold-notif-text">faucibus dolor in commodo lectus mattis</p>
+                                  <small>19:00</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge bg-primary text-white">
+                                    <i class="fas fa-bolt"></i>
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p class="bold-notif-text">faucibus dolor in commodo lectus mattis</p>
+                                  <small>18:00</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge bg-success text-white">
+                                    <i class="fas fa-at"></i>
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p>faucibus dolor in commodo lectus mattis</p>
+                                  <small>yesterday</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge">
+                                    <img src="../../assets/images/avatars/profile-image.png" alt="">
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p>faucibus dolor in commodo lectus mattis</p>
+                                  <small>yesterday</small>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="#">
+                              <div class="header-notif">
+                                <div class="notif-image">
+                                  <span class="notification-badge">
+                                    <img src="../../assets/images/avatars/profile-image.png" alt="">
+                                  </span>
+                                </div>
+                                <div class="notif-text">
+                                  <p>faucibus dolor in commodo lectus mattis</p>
+                                  <small>yesterday</small>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../../assets/images/avatars/profile-image.png" alt=""></a>
+                          <div class="dropdown-menu dropdown-menu-end profile-drop-menu" aria-labelledby="profileDropDown">
+                            <a class="dropdown-item" href="#"><i data-feather="user"></i>Profile</a>
+                            <a class="dropdown-item" href="#"><i data-feather="inbox"></i>Messages</a>
+                            <a class="dropdown-item" href="#"><i data-feather="edit"></i>Activities<span class="badge rounded-pill bg-success">12</span></a>
+                            <a class="dropdown-item" href="#"><i data-feather="check-circle"></i>Tasks</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i data-feather="settings"></i>Settings</a>
+                            <a class="dropdown-item" href="#"><i data-feather="unlock"></i>Lock</a>
+                            <a class="dropdown-item" href="login.html"><i data-feather="log-out"></i>Logout</a>
+                          </div>
+                        </li>
+                      </ul>
+                  </div>
+                </nav>
+            </div>
+            
+
+           		<!-- Form -->
+               <section class="lmspage">
+       
+     
+                <div class="container">
+               
+                 <div class="btn_wrap">
+                     <a a href="https://vimeo.com/ko/" class="btn_box">
+                         <div class="txt">
+                         <p>영상콘텐츠<br>등록/수정/삭제</p>
+                         </div>
+                     </a>
+                     <a a href="https://console.ncloud.com/dashboard" class="btn_box">
+                         <div class="txt">
+                         <p>서버/DB<br>등록/수정/삭제</p>
+                         </div>
+                     </a>
+             
+                 </div>
+                </div>
+				
+               </section>
+	
+            
+        </div>
+
+
+        <style>
+          .lmspage{width: 100%;text-align: center;}
+        .lmspage > .container{ width: 50%; margin-top: 300px;}
+        .lmspage> header{padding-top: 240px;}
+        .lmspage > header > #ezworld{font-size: 50px;}
+        .lmspage >.container > .title > h4 { font-weight:100}
+        .lmspage >.container> .btn_wrap{height: 200px; width: 100%; margin: 100px auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
+        .lmspage >.container .btn_box{ width: 43%; box-shadow: 1px 1px 2px #87878723; border: none; border-radius: 15px; background-color: #ffffff; color: ##7888fc;position: relative; }
+        .lmspage >.container .btn_box:hover{background-color: #7888fc; color: #f3f6f9; transition: all ease-in-out 0.3s;}
+        .lmspage >.container .btn_box .txt{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 16px; line-height: 50px;}
+        .lmspage >.container .btn_box i{width: 50px;}
+        </style>
+        
+        <!-- Javascripts -->
+        <script src="../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+        <script src="../assets/plugins/apexcharts/apexcharts.min.js"></script>
+        <script src="../assets/js/main.min.js"></script>
+        <script src="../assets/js/pages/dashboard.js"></script>
+
+        <!-- Vendor Javascript Files -->
+	<script src="../assets/vendor/jquery/jquery.min.js"></script>
+	<script src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/vendor/easing/js/easing.min.js"></script>
+	<script src="../assets/vendor/parsley/js/parsley.min.js"></script>
+	<script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="../assets/vendor/theia-sticky-sidebar/js/ResizeSensor.min.js"></script>
+	<script src="../assets/vendor/theia-sticky-sidebar/js/theia-sticky-sidebar.min.js"></script>
+	<script src="../assets/vendor/mmenu/js/mmenu.min.js"></script>
+	<script src="../assets/vendor/filepond/js/filepond-plugin-file-validate-size.js"></script>
+	<script src="../assets/vendor/filepond/js/filepond-plugin-file-validate-type.js"></script>
+	<script src="../assets/vendor/filepond/js/filepond.min.js"></script>
+
+	<!-- Google reCaptcha -->
+	<script src="https://www.google.com/recaptcha/api.js?render=YOUR_KEY"></script>
+
+	<!-- Main Javascript File -->
+	<script src="../assets/js/scripts.js"></script>
+    </body>
+</html>
